@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    // TSはECMAScript 5に変換
+    "target": "ES6",
+    // TSのモジュールはES Modulesとして出力
+    "module": "commonjs",
+    // JSXの書式を有効に設定
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "strict": true,
+    "noImplicitAny": false
+  },
+  "include": ["src/**/*.tsx", "src/**/*.ts"]
+}

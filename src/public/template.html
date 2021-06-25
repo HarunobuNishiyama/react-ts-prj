@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <style>
+      html {
+        height: 100%;
+        width: 100%;
+      }
+      body {
+        height: 100%;
+        width: 100%;
+        background: #0068b7;
+        display: flex;
+        justify-content: center;
+      }
+      #app {
+        display: flex;
+        flex-flow: row wrap;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: #e6e6fa;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

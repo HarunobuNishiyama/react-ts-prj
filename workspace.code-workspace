@@ -1,0 +1,15 @@
+{
+	"folders": [
+	  {
+		"path": "."
+	  }
+	],
+	"settings": {
+	  "editor.defaultFormatter": "esbenp.prettier-vscode",
+	  "editor.formatOnSave": true, // <-- prettierで整形
+	  "editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true // <-- eslintでリント
+	  }
+	}
+  }
+  
