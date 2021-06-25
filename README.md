@@ -93,5 +93,5 @@ Using to check syntax or format.
 Zenn にこのプロジェクトについての解説記事がアップロードされています。
 You can read some articles about this project on Zenn.(Japanese)
 
-[マニュアルで React のフロント環境構築(前編)]()
-[マニュアルで React のフロント環境構築(後編)]()
+[マニュアルで React のフロント環境構築(前編)](https://zenn.dev/nishiharu/articles/bc5c833f52c90d)
+[マニュアルで React のフロント環境構築(後編)](https://zenn.dev/nishiharu/articles/b97249c838ef01)
