@@ -12,7 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <Div>
-        <Header pageName='index'/>
+        <Header pageName="index" />
       </Div>
     );
   }

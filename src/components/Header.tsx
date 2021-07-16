@@ -7,18 +7,22 @@ interface IProps {
 
 const Header1 = styled.h1`
   flex: 1;
+  font-size: 40px;
+  font-weight: bold;
   height: 80px;
   justify-content: center;
   padding: 20px;
   background: #e6c0c0;
   color: #0068b7;
-  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
 `;
 
 export class Header extends React.Component<IProps> {
   render() {
     return (
-      <Header1>We are in {this.props.pageName}.</Header1>
+      <div>
+        <Header1>We are in {this.props.pageName}.</Header1>
+      </div>
     );
   }
 }
