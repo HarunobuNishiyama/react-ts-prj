@@ -35,8 +35,8 @@ The bandled files are output in './dist'.
 
 # VSCode のワークスペース設定 Setting the workspace on VSCode
 
-以下をルートディレクトリに作成します。
-Make the below file in root directry.
+VSCode のワークスペース設定を行い、設定ファイルを以下のように変更します。
+Set the workspace of VSCode, and change the content like bellow.
 
 ```workspace.code-workspace
 {
